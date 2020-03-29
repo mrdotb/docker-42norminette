@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem "actionpack", "3.2.8"
+gem "colored"
+gem "cast", :git => "https://github.com/mrdotb/cast.git"
+gem "releasy"
+gem "sqlite3"
+gem "redis"
+gem "json"
