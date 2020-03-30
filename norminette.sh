@@ -6,7 +6,7 @@
 rm -rf /tmp/launch-*
 
 # pass args of script to norminette
-/42_norminette/norminette/42norminette/norminette.rb "$@" > /tmp/norminetteoutput
+/42norminette/norminette.rb "$@" > /tmp/norminetteoutput
 
 # print output
 cat /tmp/norminetteoutput
