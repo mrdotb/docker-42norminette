@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for arg in "$@"; do
+  path=$(dirname $arg)
+  path=$(realpath $path)
+  docker run -v $path:/temp --rm -it mrdotb/42norminette "temp/$(basename $arg)" 
+done
