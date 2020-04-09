@@ -8,6 +8,8 @@ Huge thanks to [veroxy](https://github.com/veroxy) and the mystery man make this
 
 ## How to use ?
 
+Install [docker](https://docs.docker.com/get-docker/)
+
 Pull the image
 
 ```bash
@@ -38,6 +40,7 @@ norminette ../fdf/src/*.c
 ...
 ```
 
+<br>
 It's too slow for me :angry: 
 Well the previous example create one temporary containers for each call we can speed up things but we loose flexibility.
 
